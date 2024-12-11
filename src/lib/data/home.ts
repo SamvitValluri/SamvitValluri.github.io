@@ -16,7 +16,7 @@ const hero: {
 		{ label: 'GitHub', href: 'https://github.com', icon: 'i-carbon-logo-github' },
 		{ label: 'LinkedIn', href: 'https://linkedin.com', icon: 'i-carbon-logo-linkedin' },
 		{ label: 'Twitter', href: 'https://twitter.com', icon: 'i-carbon-logo-twitter' },
-		{ label: 'Email', href: 'mailto:riadh.adrani@pm.me', icon: 'i-carbon-at' }
+		{ label: 'Email', href: 'mailto:samvit.valluri@gmail.com', icon: 'i-carbon-at' }
 	]
 };
 
