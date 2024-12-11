@@ -37,7 +37,7 @@
 			<div class="flex w-full flex-col items-center justify-center gap-4">
 				<H1>{data.item.degree}</H1>
 				<Muted>{data.item.organization} · {data.item.location}</Muted>
-				<!-- <Muted><Muted>{duration}</Muted></Muted> -->
+				<Muted><Muted>{duration}</Muted></Muted>
 				<Separator />
 				<div class="flex flex-row flex-wrap justify-center gap-2">
 					{#each data.item.subjects as subject (subject)}
