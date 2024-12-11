@@ -8,7 +8,7 @@ const items: Array<Education> = [
 		degree: 'Bachelor of Science- BS,Mechanical Engineering',
 		description: '',
 		location: 'West Lafayette',
-		logo: Assets.Unknown,
+		logo: Assets.Purdue,
 		name: '',
 		organization: 'Purdue',
 		period: { from: new Date(2018, 7, 1), to: new Date(2022, 4, 1) },
