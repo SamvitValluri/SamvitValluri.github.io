@@ -23,7 +23,8 @@ const carousel: Array<Skill> = getSkills();
 
 const HomeData = {
 	title,
-	hero
+	hero,
+	carousel
 };
 
 export default HomeData;
