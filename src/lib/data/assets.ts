@@ -34,7 +34,7 @@ const Assets = {
 	ReactJs: asset('react.svg'),
 	Dart: asset('dart.png'),
 	Kotlin: asset('kotlin.png'),
-	Python: asset('python.png'),
+	Python: asset('Python.svg'),
 	NodeJs: asset('node.png'),
 	Deno: asset('deno.svg'),
 	Svelte: asset('svelte.svg'),
