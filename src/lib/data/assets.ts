@@ -70,7 +70,7 @@ const Assets = {
 	Unocss: asset('unocss.svg'),
 	Ruvy: asset('ruvy.svg'),
 	Postcss: asset('postcss.svg'),
-	Purdue: asset('Purdue.jpg')
+	Purdue: asset('Purdue.png')
 };
 
 export default Assets;
