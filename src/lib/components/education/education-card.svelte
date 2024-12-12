@@ -53,7 +53,7 @@
 				</TooltipTrigger>
 				<TooltipContent>Date range</TooltipContent>
 			</Tooltip>
-			<Tooltip openDelay={300}>
+			<!-- <Tooltip openDelay={300}>
 				<TooltipTrigger>
 					<Muted className="flex flex-row items-center gap-2">
 						<Icon icon="i-carbon-time" />
@@ -61,7 +61,7 @@
 					</Muted>
 					<TooltipContent side="bottom">Exact duration</TooltipContent>
 				</TooltipTrigger>
-			</Tooltip>
+			</Tooltip> --!>
 			<div>
 				{ellipsify(it.shortDescription, 150)}
 			</div>
