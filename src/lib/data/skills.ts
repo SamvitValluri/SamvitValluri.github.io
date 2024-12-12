@@ -19,7 +19,7 @@ const categories = [
 	defineSkillCategory({ name: 'Markup & Style', slug: 'markup-style' }),
 	defineSkillCategory({ name: 'Design', slug: 'design' }),
 	defineSkillCategory({ name: 'Soft Skills', slug: 'soft' }),
-	defineSkillCategory({ name: 'CAD Software', slug: 'CAD' })
+	defineSkillCategory({ name: 'Modeling & Analysis Software', slug: 'CAD' })
 ] as const;
 
 const defineSkill = <S extends string>(
