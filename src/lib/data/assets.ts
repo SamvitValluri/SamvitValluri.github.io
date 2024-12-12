@@ -72,7 +72,7 @@ const Assets = {
 	Postcss: asset('postcss.svg'),
 	Purdue: asset('Purdue.svg'),
 	Matlab: asset('Matlab.png'),
-	Solidworks: asset('Solidworks.svg')
+	Solidworks: asset('SolidWorks.svg')
 };
 
 export default Assets;

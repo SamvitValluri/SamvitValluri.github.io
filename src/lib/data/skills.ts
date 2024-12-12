@@ -113,7 +113,7 @@ const items = [
 		description:
 			'',
 		logo: Assets.Solidworks,
-		name: 'Matlab',
+		name: 'Solidworks',
 		category: 'CAD'
 	})
 ] as const;
