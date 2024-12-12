@@ -109,7 +109,7 @@ const items = [
 	}),
 	defineSkill({
 		slug: 'Solidworks',
-		color: 'orange',
+		color: 'red',
 		description:
 			'',
 		logo: Assets.Solidworks,
