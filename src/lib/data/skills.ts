@@ -98,6 +98,15 @@ const items = [
 		category: 'pro-lang'
 	}),
 	defineSkill({
+		slug: 'Matlab',
+		color: 'orange',
+		description:
+			'',
+		logo: Assets.Matlab,
+		name: 'Matlab',
+		category: 'pro-lang'
+	}),
+	defineSkill({
 		slug: 'css',
 		color: 'blue',
 		description:
