@@ -35,6 +35,9 @@
 		</Avatar>
 		<div class="flex flex-col gap-4">
 			<CardTitle>{it.degree}</CardTitle>
+			<div>
+				{ellipsify(it.shortDescription, 150)}
+			</div>
 			<Tooltip openDelay={300}>
 				<TooltipTrigger>
 					<Muted className="flex flex-row items-center gap-2">
@@ -62,9 +65,6 @@
 					<TooltipContent side="bottom">Exact duration</TooltipContent>
 				</TooltipTrigger>
 			</Tooltip> -->
-			<div>
-				{ellipsify(it.shortDescription, 150)}
-			</div>
 			<div class="flex flex-row flex-wrap gap-2">
 				{#each it.subjects as subject (subject)}
 					<Badge variant="secondary">{subject}</Badge>
