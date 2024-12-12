@@ -72,7 +72,8 @@ const Assets = {
 	Postcss: asset('postcss.svg'),
 	Purdue: asset('Purdue.svg'),
 	Matlab: asset('Matlab.png'),
-	Solidworks: asset('SolidWorks.svg')
+	Solidworks: asset('SolidWorks.svg'),
+	Catia: asset('Catia.svg')
 };
 
 export default Assets;

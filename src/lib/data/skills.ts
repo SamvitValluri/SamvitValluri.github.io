@@ -115,6 +115,15 @@ const items = [
 		logo: Assets.Solidworks,
 		name: 'Solidworks',
 		category: 'CAD'
+	}),
+	defineSkill({
+		slug: 'Catia',
+		color: 'blue',
+		description:
+			'',
+		logo: Assets.Catia,
+		name: 'Catia',
+		category: 'CAD'
 	})
 ] as const;
 
