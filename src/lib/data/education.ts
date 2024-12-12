@@ -9,12 +9,12 @@ const items: Array<Education> = [
 		description: '',
 		location: 'West Lafayette',
 		logo: Assets.Purdue,
-		name: '',
+		name: 'Purdue',
 		organization: 'Purdue',
 		period: { from: new Date(2018, 7, 1), to: new Date(2022, 4, 1) },
 		shortDescription: '',
-		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
+		slug: 'Purdue',
+		subjects: []
 	}
 ];
 
