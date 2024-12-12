@@ -142,7 +142,16 @@ const items = [
 		logo: Assets.Unknown,
 		name: 'ABAQUS',
 		category: 'CAD'
-	})	
+	}),
+	defineSkill({
+		slug: 'Fusion360',
+		color: 'orange',
+		description:
+			'',
+		logo: Assets.Unknown,
+		name: 'Fusion 360',
+		category: 'CAD'
+	})
 ] as const;
 
 const SkillsData = {
