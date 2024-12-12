@@ -6,7 +6,7 @@ const title = 'Education';
 const items: Array<Education> = [
 	{
 		degree: 'Bachelor of Science- BS,Mechanical Engineering',
-		description: '',
+		description: 'Bachelor of Science- BS,Mechanical Engineering',
 		location: 'West Lafayette, IN',
 		logo: Assets.Purdue,
 		name: 'Purdue',
