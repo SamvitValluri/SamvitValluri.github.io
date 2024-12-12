@@ -61,7 +61,7 @@
 					</Muted>
 					<TooltipContent side="bottom">Exact duration</TooltipContent>
 				</TooltipTrigger>
-			</Tooltip> --!>
+			</Tooltip> -->
 			<div>
 				{ellipsify(it.shortDescription, 150)}
 			</div>
