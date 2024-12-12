@@ -5,13 +5,13 @@ const title = 'Education';
 
 const items: Array<Education> = [
 	{
-		degree: 'Bachelor of Science- BS,Mechanical Engineering',
+		degree: 'Purdue University',
 		shortDescription: 'Bachelor of Science- BS,Mechanical Engineering',
 		description: '',
 		location: 'West Lafayette, IN',
 		logo: Assets.Purdue,
-		name: 'Purdue',
-		organization: 'Purdue',
+		name: '',
+		organization: '',
 		period: { from: new Date(2018, 7, 1), to: new Date(2022, 4, 1) },
 		slug: 'Purdue',
 		subjects: []
