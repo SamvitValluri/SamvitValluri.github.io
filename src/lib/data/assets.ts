@@ -71,7 +71,8 @@ const Assets = {
 	Ruvy: asset('ruvy.svg'),
 	Postcss: asset('postcss.svg'),
 	Purdue: asset('Purdue.svg'),
-	Matlab: asset('Matlab.png')
+	Matlab: asset('Matlab.png'),
+	Solidworks: asset('Solidworks.svg')
 };
 
 export default Assets;

@@ -18,7 +18,8 @@ const categories = [
 	defineSkillCategory({ name: 'Dev Tools', slug: 'devtools' }),
 	defineSkillCategory({ name: 'Markup & Style', slug: 'markup-style' }),
 	defineSkillCategory({ name: 'Design', slug: 'design' }),
-	defineSkillCategory({ name: 'Soft Skills', slug: 'soft' })
+	defineSkillCategory({ name: 'Soft Skills', slug: 'soft' }),
+	defineSkillCategory({ name: 'CAD Software', slug: 'CAD' })
 ] as const;
 
 const defineSkill = <S extends string>(
@@ -105,6 +106,15 @@ const items = [
 		logo: Assets.Matlab,
 		name: 'Matlab',
 		category: 'pro-lang'
+	}),
+	defineSkill({
+		slug: 'Solidworks',
+		color: 'orange',
+		description:
+			'',
+		logo: Assets.Solidworks,
+		name: 'Matlab',
+		category: 'CAD'
 	})
 ] as const;
 
