@@ -73,7 +73,10 @@ const Assets = {
 	Purdue: asset('Purdue.svg'),
 	Matlab: asset('Matlab.png'),
 	Solidworks: asset('SolidWorks.svg'),
-	Catia: asset('Catia.svg')
+	Catia: asset('Catia.svg'),
+	ANSYS: asset('ANSYS.png'),
+	ABAQUS: asset('ABAQUS.png'),
+	Fusion360: asset('Fusion360.png')
 };
 
 export default Assets;

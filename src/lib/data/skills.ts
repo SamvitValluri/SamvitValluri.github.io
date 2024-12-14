@@ -130,7 +130,7 @@ const items = [
 		color: 'yellow',
 		description:
 			'',
-		logo: Assets.Unknown,
+		logo: Assets.ANSYS,
 		name: 'ANSYS',
 		category: 'CAD'
 	}),
@@ -139,7 +139,7 @@ const items = [
 		color: 'blue',
 		description:
 			'',
-		logo: Assets.Unknown,
+		logo: Assets.ABAQUS,
 		name: 'ABAQUS',
 		category: 'CAD'
 	}),
@@ -148,7 +148,7 @@ const items = [
 		color: 'orange',
 		description:
 			'',
-		logo: Assets.Unknown,
+		logo: Assets.Fusion360,
 		name: 'Fusion 360',
 		category: 'CAD'
 	})
