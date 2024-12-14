@@ -126,16 +126,16 @@ const items = [
 		category: 'CAD'
 	}),
 	defineSkill({
-		slug: 'ANSYSS',
+		slug: 'ANSYS',
 		color: 'yellow',
 		description:
 			'',
 		logo: Assets.Unknown,
-		name: 'ANSYSS',
+		name: 'ANSYS',
 		category: 'CAD'
 	}),
 	defineSkill({
-		slug: 'ABAQUS',
+		slug: 'ABAQUS',	
 		color: 'blue',
 		description:
 			'',
