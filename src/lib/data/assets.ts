@@ -75,7 +75,7 @@ const Assets = {
 	Solidworks: asset('SolidWorks.svg'),
 	Catia: asset('Catia.svg'),
 	ANSYS: asset('Ansys.svg'),
-	ABAQUS: asset('Abaqus.svg'),
+	ABAQUS: asset('abaqus.svg'),
 	Fusion360: asset('Fusion360.png')
 };
 
