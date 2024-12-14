@@ -131,7 +131,7 @@ const items = [
 		description:
 			'',
 		logo: Assets.ANSYS,
-		name: 'ANSYS',
+		name: 'Ansys',
 		category: 'CAD'
 	}),
 	defineSkill({
@@ -140,7 +140,7 @@ const items = [
 		description:
 			'',
 		logo: Assets.ABAQUS,
-		name: 'ABAQUS',
+		name: 'Abaqus',
 		category: 'CAD'
 	}),
 	defineSkill({
