@@ -158,10 +158,19 @@ const items = [
 		color: 'orange',
 		description:
 			'',
-		logo: Assets.Fusion360,
+		logo: Assets.Numpy,
 		name: 'numpy',
 		category: 'pylib'
 	}),
+	defineSkill({
+		slug: 'pytorch',
+		color: 'orange',
+		description:
+			'',
+		logo: Assets.Fusion360,
+		name: 'Pytorch',
+		category: 'pylib'
+	})
 ] as const;
 
 const SkillsData = {
