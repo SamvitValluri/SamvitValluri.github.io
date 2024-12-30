@@ -76,7 +76,8 @@ const Assets = {
 	Catia: asset('Catia.svg'),
 	ANSYS: asset('Ansys.svg'),
 	ABAQUS: asset('abaqus.svg'),
-	Fusion360: asset('Fusion360.png')
+	Fusion360: asset('Fusion360.png'),
+	Pytorch: asset('Pytorch.svg')
 };
 
 export default Assets;

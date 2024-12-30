@@ -167,7 +167,7 @@ const items = [
 		color: 'orange',
 		description:
 			'',
-		logo: Assets.Fusion360,
+		logo: Assets.Pytorch,
 		name: 'Pytorch',
 		category: 'pylib'
 	})
