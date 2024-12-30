@@ -55,7 +55,7 @@
 	);
 </script>
 
-<BasePage {title}>
+<!--<BasePage {title}>
 	{#if !data.item}
 		<EmptyResult />
 	{:else}
@@ -81,3 +81,4 @@
 		{/if}
 	{/if}
 </BasePage>
+-->
