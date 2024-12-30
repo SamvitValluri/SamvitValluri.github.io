@@ -7,5 +7,5 @@
 <div class="flex flex-1 flex-col items-center justify-center gap-2">
 	<Icon className="text-3xl" icon="i-carbon-ai-status-failed" />
 	<Large>Hmmm...</Large>
-	<Muted></Muted>
+	<Muted>The content you are looking for does not exist...</Muted>
 </div>
