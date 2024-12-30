@@ -155,11 +155,11 @@ const items = [
 	}),
 	defineSkill({
 		slug: 'np',
-		color: 'orange',
+		color: 'blue',
 		description:
 			'',
 		logo: Assets.Numpy,
-		name: 'numpy',
+		name: 'Numpy',
 		category: 'pylib'
 	}),
 	defineSkill({
