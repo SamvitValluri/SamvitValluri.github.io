@@ -155,7 +155,7 @@ const items = [
 	}),
 	defineSkill({
 		slug: 'np',
-		color: 'blue',
+		color: 'cyan',
 		description:
 			'',
 		logo: Assets.Numpy,
