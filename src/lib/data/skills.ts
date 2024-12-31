@@ -173,7 +173,7 @@ const items = [
 	}),
 	defineSkill({
 		slug: 'pandas',
-		color: 'orange',
+		color: 'purple',
 		description:
 			'',
 		logo: Assets.Pandas,
