@@ -74,13 +74,14 @@ const items: Array<Project> = [
 		shortDescription:
 			'FDP',
 		links: [
+			{ to: 'https://github.com/', label: 'GitHub' }
 		],
 		logo: Assets.Unknown,
 		name: 'MEDEsign',
 		period: {
-			from: new Date()
+			from: new Date(2018, 7, 1), to: new Date(2022, 4, 1)
 		},
-		skills: getSkills('angular', 'ts', 'tailwind'),
+		skills: getSkills(),
 		type: 'Website Template'
 	},
 ];
