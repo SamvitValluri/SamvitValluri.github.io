@@ -63,9 +63,9 @@
 				<Icon icon="i-carbon-search" />
 			</Button>
 		</a>
-		<!--<Button variant="ghost" class="text-xl" on:click={toggleMode}>
+		<Button variant="ghost" class="text-xl" on:click={toggleMode}>
 			<Icon icon={isDarkMode ? 'i-carbon-moon' : 'i-carbon-sun'} />
-		</Button>-->
+		</Button>
 	</div>
 
 	<!-- sm -->
