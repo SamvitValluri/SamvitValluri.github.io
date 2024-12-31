@@ -170,7 +170,16 @@ const items = [
 		logo: Assets.Pytorch,
 		name: 'Pytorch',
 		category: 'pylib'
-	})
+	}),
+	defineSkill({
+		slug: 'pandas',
+		color: 'orange',
+		description:
+			'',
+		logo: Assets.Pandas,
+		name: 'Pandas',
+		category: 'pylib'
+	}),
 ] as const;
 
 const SkillsData = {
