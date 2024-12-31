@@ -54,7 +54,7 @@
 			</div>
 		</div>
 		<div>
-			<img src= "/ProfilePic.jfif"/>
+			<img src= "/ProfilePic.webp"/>
 			<!--<Carousel bind:api class="w-[200px] md:ml-14" opts={{ loop: true }}>
 				<CarouselContent>
 					{#each HomeData.carousel as item}
