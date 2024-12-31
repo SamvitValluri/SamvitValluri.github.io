@@ -9,7 +9,7 @@ const hero: {
 	description: string;
 	links: Array<{ label: string; href: string; icon: `i-carbon-${string}` }>;
 } = {
-	title: `${BaseData.fullName},`,
+	title: `${BaseData.fullName}`,
 	description:
 		'Interesting text about me. I am a very interesting person. This is text',
 	links: [
