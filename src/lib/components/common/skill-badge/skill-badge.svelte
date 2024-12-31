@@ -7,7 +7,7 @@
 
 	const { skill }: { skill: Skill } = $props();
 </script>
-
+<!--
 <Tooltip openDelay={100}>
 	<TooltipTrigger class="group">
 		<a href={href(`/skills/${skill.slug}`)}>
@@ -22,3 +22,4 @@
 	</TooltipTrigger>
 	<TooltipContent>{skill.name}</TooltipContent>
 </Tooltip>
+-->
