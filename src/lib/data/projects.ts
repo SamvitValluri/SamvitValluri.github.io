@@ -67,7 +67,7 @@ const items: Array<Project> = [
 		]
 	},
 	{
-		slug: '',
+		slug: 'MEDESIGN',
 		color: '#5e95e3',
 		description:
 			'Final Design Project',
@@ -81,7 +81,7 @@ const items: Array<Project> = [
 		period: {
 			from: new Date(2018, 7, 1), to: new Date(2022, 4, 1)
 		},
-		skills: getSkills(),
+		skills: getSkills('Solidworks'),
 		type: 'Website Template'
 	},
 ];
