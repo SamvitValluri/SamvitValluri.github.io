@@ -76,7 +76,7 @@ const Assets = {
 	Catia: asset('Catia.svg'),
 	ANSYS: asset('Ansys.svg', 'Ansys_dark.svg'),
 	ABAQUS: asset('abaqus.svg'),
-	Fusion360: asset('Fusion360.png'),
+	Fusion360: asset('Fusion360.svg'),
 	Pytorch: asset('PyTorch.svg'),
 	Tensorflow: asset('TensorFlow.svg'),
 	Blank :asset('blank.png', 'blank_dark.png')
