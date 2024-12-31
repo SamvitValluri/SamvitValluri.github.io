@@ -140,7 +140,7 @@ const items = [
 		color: 'blue',
 		description:
 			'',
-		logo: Assets.ABAQUS,
+		logo: Assets.Blank,
 		name: 'Abaqus',
 		category: 'CAD'
 	}),
