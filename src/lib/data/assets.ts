@@ -20,7 +20,7 @@ const Assets = {
 	Neo4j: asset('neo4j.svg'),
 	Nginx: asset('nginx.svg'),
 	Numpy: asset('numpy.svg'),
-	Pandas: asset('pandas.svg'),
+	Pandas: asset('pandas.svg', 'pandas_dark.svg'),
 	RabbitMQ: asset('rabbitmq.svg'),
 	Rust: asset('rust.svg', 'rust-dark.png'),
 	Scrapy: asset('scrapy.png'),
