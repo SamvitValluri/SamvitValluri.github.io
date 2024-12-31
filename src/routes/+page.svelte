@@ -54,6 +54,7 @@
 			</div>
 		</div>
 		<div>
+			<img src="$app/paths/ProfilePic.png" alt="background image" />
 			<!--<Carousel bind:api class="w-[200px] md:ml-14" opts={{ loop: true }}>
 				<CarouselContent>
 					{#each HomeData.carousel as item}
