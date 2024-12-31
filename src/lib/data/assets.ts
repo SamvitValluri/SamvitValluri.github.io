@@ -77,7 +77,8 @@ const Assets = {
 	ANSYS: asset('Ansys.svg'),
 	ABAQUS: asset('abaqus.svg'),
 	Fusion360: asset('Fusion360.png'),
-	Pytorch: asset('PyTorch.svg')
+	Pytorch: asset('PyTorch.svg'),
+	Tensorflow: asset('TensorFlow.svg')
 };
 
 export default Assets;

@@ -180,6 +180,15 @@ const items = [
 		name: 'Pandas',
 		category: 'pylib'
 	}),
+	defineSkill({
+		slug: 'tensorflow',
+		color: 'orange',
+		description:
+			'',
+		logo: Assets.Tensorflow,
+		name: 'Tensorflow',
+		category: 'pylib'
+	}),	
 ] as const;
 
 const SkillsData = {
