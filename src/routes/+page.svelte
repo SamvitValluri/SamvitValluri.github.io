@@ -16,6 +16,7 @@
 	import { mode } from 'mode-watcher';
 	import { type CarouselAPI } from '$lib/components/ui/carousel/context.js';
 	import { onMount } from 'svelte';
+	import { base } from '$app/paths';
 
 	let api: CarouselAPI;
 
@@ -54,7 +55,7 @@
 			</div>
 		</div>
 		<div>
-			<img src="$lib/static/ProfilePic.png"/>
+			<img src= '${base}/ProfilePic.png'/>
 			<!--<Carousel bind:api class="w-[200px] md:ml-14" opts={{ loop: true }}>
 				<CarouselContent>
 					{#each HomeData.carousel as item}
