@@ -78,7 +78,8 @@ const Assets = {
 	ABAQUS: asset('abaqus.svg'),
 	Fusion360: asset('Fusion360.png'),
 	Pytorch: asset('PyTorch.svg'),
-	Tensorflow: asset('TensorFlow.svg')
+	Tensorflow: asset('TensorFlow.svg'),
+	Blank :asset('blank.png', 'blank_dark.png')
 };
 
 export default Assets;
