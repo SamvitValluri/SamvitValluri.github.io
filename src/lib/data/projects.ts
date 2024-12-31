@@ -74,7 +74,6 @@ const items: Array<Project> = [
 		shortDescription:
 			'FDP',
 		links: [
-			{ to: 'https://github.com/', label: 'GitHub' }
 		],
 		logo: Assets.Unknown,
 		name: 'MEDEsign',
