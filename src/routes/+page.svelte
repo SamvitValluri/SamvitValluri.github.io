@@ -54,7 +54,7 @@
 			</div>
 		</div>
 		<div>
-			<Carousel bind:api class="w-[200px] md:ml-14" opts={{ loop: true }}>
+			<!--<Carousel bind:api class="w-[200px] md:ml-14" opts={{ loop: true }}>
 				<CarouselContent>
 					{#each HomeData.carousel as item}
 						<CarouselItem class="flex flex-col items-center justify-center gap-4">
@@ -73,7 +73,7 @@
 				</CarouselContent>
 				<CarouselNext />
 				<CarouselPrevious />
-			</Carousel>
+			</Carousel> -->
 		</div>
 	</div>
 </ResponsiveContainer>
