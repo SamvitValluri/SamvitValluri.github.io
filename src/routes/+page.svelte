@@ -54,7 +54,7 @@
 			</div>
 		</div>
 		<div>
-			<img src= '$lib/static/ProfilePic.png'/>
+			<img src= '$././static/ProfilePic.png'/>
 			<!--<Carousel bind:api class="w-[200px] md:ml-14" opts={{ loop: true }}>
 				<CarouselContent>
 					{#each HomeData.carousel as item}
