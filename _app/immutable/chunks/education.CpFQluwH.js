@@ -1,0 +1,1 @@
+import{A as e}from"./assets.W0LZ_po9.js";const t="Education",o=[{degree:"Purdue University",shortDescription:"Bachelor of Science(B.S.), Mechanical Engineering",description:"",location:"Indiana",logo:e.Purdue,name:"",organization:"West Lafayette",period:{from:new Date(2018,7,1),to:new Date(2022,4,1)},slug:"Purdue",subjects:[]}],i={title:t,items:o};export{i as E};
