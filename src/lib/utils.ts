@@ -82,7 +82,7 @@ export function computeExactDuration(from: Date, to: Date = new Date()): string 
 		display.push(`${Math.trunc(months)} month${months >= 2 ? 's' : ''}`);
 	}
 
-	const weeks = remaining / WEEK;
+	/*const weeks = remaining / WEEK;
 	if (weeks >= 1) {
 		remaining = remaining % WEEK;
 		display.push(`${Math.trunc(weeks)} week${weeks >= 2 ? 's' : ''}`);
@@ -96,7 +96,7 @@ export function computeExactDuration(from: Date, to: Date = new Date()): string 
 
 	if (display.length === 0) {
 		return '1 day';
-	}
+	}*/
 
 	return display
 		.map((it, index) => {
