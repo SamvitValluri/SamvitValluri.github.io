@@ -1,3 +1,4 @@
+/*
 import Assets from './assets';
 import { getSkills } from './skills';
 import { ContractType, type Experience } from './types';
@@ -5,7 +6,7 @@ import { ContractType, type Experience } from './types';
 const title = 'Experience';
 
 const items: Array<Experience> = [
-/*	{
+	{
 		slug: 'open-sourcer',
 		company: 'Self-employed',
 		description: 'Creating awesome tools for developers.',
@@ -49,9 +50,10 @@ const items: Array<Experience> = [
 		links: [],
 		logo: Assets.Unknown,
 		shortDescription: 'Creating awesome applications for customers.'
-	}*/
+	}
 ];
 
 const ExperienceData = { title, items };
 
 export default ExperienceData;
+*/
