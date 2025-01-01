@@ -76,9 +76,9 @@ const items: Array<Project> = [
 		links: [
 		],
 		logo: Assets.Unknown,
-		name: 'MEDEsign',
+		name: 'Automated Table Tennis Paddle Manufacturer',
 		period: {
-			from: new Date(2018, 7, 1), to: new Date(2022, 4, 1)
+			from: new Date(2022, 0, 1), to: new Date(2022, 4, 1)
 		},
 		skills: getSkills('Solidworks'),
 		type: 'Website Template'
