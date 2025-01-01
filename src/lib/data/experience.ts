@@ -1,11 +1,12 @@
-import Assets from './assets';
+/*import Assets from './assets';
 import { getSkills } from './skills';
 import { ContractType, type Experience } from './types';
+
 
 const title = 'Certifications';
 
 const items: Array<Experience> = [
-/*	{
+	{
 		slug: 'open-sourcer',
 		company: 'Self-employed',
 		description: 'Creating awesome tools for developers.',
@@ -49,9 +50,40 @@ const items: Array<Experience> = [
 		links: [],
 		logo: Assets.Unknown,
 		shortDescription: 'Creating awesome applications for customers.'
-	}*/
+	}
 ];
 
 const ExperienceData = { title, items };
 
-export default ExperienceData;
+export default ExperienceData;*/
+
+import Assets from './assets';
+import { getSkills } from './skills';
+import type { Project } from './types';
+
+const items: Array<Project> = [
+	{
+		slug: 'EBEC',
+		color: '#5e95e3',
+		description:
+			'',
+		shortDescription:
+			'',
+		links: [
+		],
+		logo: Assets.Unknown,
+		name: 'Entry Level Programming in Python',
+		period: {
+			from: new Date(2020, 11, 1)
+		},
+		skills: getSkills('py'),
+		type: 'Website Template'
+	},
+	
+];
+
+const title = 'Certifications';
+
+const Experience = { title, items };
+
+export default Experience;
