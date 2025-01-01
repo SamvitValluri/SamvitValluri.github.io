@@ -8,8 +8,8 @@ const items: Array<{
 	href: string;
 }> = [
 	{ title: 'Skills', icon: 'i-carbon-assembly-cluster', href: '/skills' },
-	{ title: 'Projects', icon: 'i-carbon-cube', href: '/projects' },
-	{ title: 'Certifications', icon: 'i-carbon-development', href: '/experience' },
+	{ title: 'Certifications', icon: 'i-carbon-cube', href: '/projects' },
+	{ title: 'Projects', icon: 'i-carbon-development', href: '/experience' },
 	{ title: 'Education', icon: 'i-carbon-education', href: '/education' },
 	{ title: 'Resume', icon: 'i-carbon-document', href: '/resume' }
 ];
