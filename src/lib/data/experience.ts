@@ -8,18 +8,18 @@ const title = 'Projects';
 const items: Array<Experience> = [
 	{
 		slug: 'ME463',
-		company: 'Self-employed',
-		description: 'Creating awesome applications for customers.',
+		company: '',
+		description: '',
 		contract: ContractType.Freelance,
-		type: 'Software Development',
-		location: 'Home',
+		type: '',
+		location: '',
 		period: { from: new Date(2022, 0, 1), to: new Date() },
 		skills: getSkills('css', 'html', 'js'),
-		name: 'Junior Freelancer',
+		name: 'Automated Table Tennis Paddle Manufacturer',
 		color: 'green',
 		links: [],
 		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome applications for customers.'
+		shortDescription: ''
 	}
 ];
 
