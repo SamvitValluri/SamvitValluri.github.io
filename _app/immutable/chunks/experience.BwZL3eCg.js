@@ -1,1 +1,0 @@
-import{A as t}from"./assets.CuadxZRL.js";import{a as e}from"./skills.BONQTGkx.js";const o=[{slug:"EBEC",color:"#5e95e3",description:"",shortDescription:"",links:[],logo:t.Unknown,name:"Entry Level Programming in Python",period:{from:new Date(2020,11,1)},skills:e("py"),type:"Website Template"}],s="Certifications",r={title:s,items:o};export{r as P};
