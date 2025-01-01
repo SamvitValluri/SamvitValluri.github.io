@@ -84,6 +84,6 @@ const items: Array<Project> = [
 
 const title = 'Certifications';
 
-const Experience = { title, items };
+const ProjectsData = { title, items };
 
-export default Experience;
+export default ProjectsData;
