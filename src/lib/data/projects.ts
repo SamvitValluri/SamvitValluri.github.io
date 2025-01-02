@@ -72,7 +72,7 @@ const items: Array<Project> = [
 		description:
 			'',
 		shortDescription:
-			'',
+			'Issued: December 2020',
 		links: [
 			{to: 'https://engineering.purdue.edu/Engr/Academics/Undergraduate/Milestones/EBEC_Entry-Level_Programming_in_Python/2020/Fall/DVFRK5B22D61UZliALq94w.png', label:'Show Credential'}
 		],
