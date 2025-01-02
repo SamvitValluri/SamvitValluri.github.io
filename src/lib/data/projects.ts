@@ -74,6 +74,7 @@ const items: Array<Project> = [
 		shortDescription:
 			'',
 		links: [
+			{to: 'https://engineering.purdue.edu/Engr/Academics/Undergraduate/Milestones/EBEC_Entry-Level_Programming_in_Python/2020/Fall/DVFRK5B22D61UZliALq94w.png', label:'Show Credential'}
 		],
 		logo: Assets.Unknown,
 		name: 'Entry Level Programming in Python',
