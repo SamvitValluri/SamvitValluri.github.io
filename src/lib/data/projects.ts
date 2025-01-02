@@ -72,7 +72,7 @@ const items: Array<Project> = [
 		description:
 			'',
 		shortDescription:
-			'Issued: December 2020',
+			'',
 		links: [
 			{to: 'https://engineering.purdue.edu/Engr/Academics/Undergraduate/Milestones/EBEC_Entry-Level_Programming_in_Python/2020/Fall/DVFRK5B22D61UZliALq94w.png', label:'Show Credential'}
 		],
@@ -83,6 +83,24 @@ const items: Array<Project> = [
 		},
 		skills: getSkills('py', 'np'),
 		type: 'Issued By: Purdue University'
+	},
+	{
+		slug: 'NVDIA',
+		color: '#5e95e3',
+		description:
+			'',
+		shortDescription:
+			'',
+		links: [
+			{to: 'https://learn.nvidia.com/certificates?id=3df94ba26bdf4bb4842fdbdbc7775195', label:'Show Credential'}
+		],
+		logo: Assets.NVDIA,
+		name: 'Entry Level Programming in Python',
+		period: {
+			from: new Date(2022, 05, 27)
+		},
+		skills: getSkills('py', 'np'),
+		type: 'Issued By: NVDIA'
 	},
 ];
 
