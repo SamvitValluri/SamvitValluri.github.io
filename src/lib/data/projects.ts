@@ -68,7 +68,7 @@ const items: Array<Project> = [
 	},*/
 	{
 		slug: 'NVIDIA',
-		color: '#5e95e3',
+		color: '#76b900',
 		description:
 			'',
 		shortDescription:
@@ -86,7 +86,7 @@ const items: Array<Project> = [
 	},
 	{
 		slug: 'EBEC',
-		color: '##C28E0E',
+		color: '#C28E0E',
 		description:
 			'',
 		shortDescription:
