@@ -94,8 +94,8 @@ const items: Array<Project> = [
 		links: [
 			{to: 'https://learn.nvidia.com/certificates?id=3df94ba26bdf4bb4842fdbdbc7775195', label:'Show Credential'}
 		],
-		logo: Assets.NVDIA,
-		name: 'Entry Level Programming in Python',
+		logo: Assets.Blank,
+		name: 'Fundementals of Deep Learning',
 		period: {
 			from: new Date(2022, 05, 27)
 		},
