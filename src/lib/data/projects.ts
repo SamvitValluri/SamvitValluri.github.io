@@ -86,7 +86,7 @@ const items: Array<Project> = [
 	},
 	{
 		slug: 'EBEC',
-		color: '#5e95e3',
+		color: '##C28E0E',
 		description:
 			'',
 		shortDescription:
