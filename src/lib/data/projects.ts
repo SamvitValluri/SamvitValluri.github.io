@@ -81,7 +81,7 @@ const items: Array<Project> = [
 		period: {
 			from: new Date(2020, 11, 1)
 		},
-		skills: getSkills('py'),
+		skills: getSkills('py', 'np'),
 		type: ''
 	},
 ];
