@@ -85,7 +85,7 @@ const items: Array<Project> = [
 		type: 'Issued By: Purdue University'
 	},
 	{
-		slug: 'EBEC2',
+		slug: 'NVIDIA',
 		color: '#5e95e3',
 		description:
 			'',
@@ -94,7 +94,7 @@ const items: Array<Project> = [
 		links: [
 			{to: 'https://engineering.purdue.edu/Engr/Academics/Undergraduate/Milestones/EBEC_Entry-Level_Programming_in_Python/2020/Fall/DVFRK5B22D61UZliALq94w.png', label:'Show Credential'}
 		],
-		logo: Assets.Purdue,
+		logo: Assets.NVIDIA,
 		name: 'Entry Level Programming in Python',
 		period: {
 			from: new Date(2020, 11, 1)
