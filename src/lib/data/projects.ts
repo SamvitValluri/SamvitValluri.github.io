@@ -95,12 +95,12 @@ const items: Array<Project> = [
 			{to: 'https://learn.nvidia.com/certificates?id=3df94ba26bdf4bb4842fdbdbc7775195', label:'Show Credential'}
 		],
 		logo: Assets.NVIDIA,
-		name: 'Entry Level Programming in Python',
+		name: 'Fundementals of Deep Learning',
 		period: {
 			from: new Date(2020, 11, 1)
 		},
 		skills: getSkills('py', 'np'),
-		type: 'Issued By: Purdue University'
+		type: 'Issued By: NVIDIA'
 	},
 	/**{
 		slug: 'NVIDIA',
