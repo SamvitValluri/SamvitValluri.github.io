@@ -102,24 +102,6 @@ const items: Array<Project> = [
 		skills: getSkills('py', 'np'),
 		type: 'Issued By: NVIDIA'
 	},
-	/**{
-		slug: 'NVIDIA',
-		color: '#5e95e3',
-		description:
-			'',
-		shortDescription:
-			'',
-		links: [
-			{to: 'https://learn.nvidia.com/certificates?id=3df94ba26bdf4bb4842fdbdbc7775195', label:'Show Credential'}
-		],
-		logo: Assets.NVIDIA,
-		name: 'Fundementals of Deep Learning',
-		period: {
-			from: new Date(2022, 05, 27)
-		},
-		skills: getSkills('py', 'np'),
-		type: 'Issued By: NVIDIA'
-	},*/
 ];
 
 const title = 'Certifications';
