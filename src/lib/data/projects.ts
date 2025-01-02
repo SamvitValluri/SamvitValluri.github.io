@@ -97,9 +97,9 @@ const items: Array<Project> = [
 		logo: Assets.NVIDIA,
 		name: 'Fundementals of Deep Learning',
 		period: {
-			from: new Date(2020, 11, 1)
+			from: new Date(2022, 5, 27)
 		},
-		skills: getSkills('py', 'np'),
+		skills: getSkills('py', 'tensorflow', 'pandas'),
 		type: 'Issued By: NVIDIA'
 	},
 ];
