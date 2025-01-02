@@ -85,7 +85,7 @@ const items: Array<Project> = [
 		type: 'Issued By: Purdue University'
 	},
 	{
-		slug: 'NVDIA',
+		slug: 'NVIDIA',
 		color: '#5e95e3',
 		description:
 			'',
@@ -100,7 +100,7 @@ const items: Array<Project> = [
 			from: new Date(2022, 05, 27)
 		},
 		skills: getSkills('py', 'np'),
-		type: 'Issued By: NVDIA'
+		type: 'Issued By: NVIDIA'
 	},
 ];
 
