@@ -39,7 +39,7 @@
 	class="flex h-full flex-col"
 	href={href(`/projects/${project.slug}`)}
 >
-	<CardHeader class="flex w-full flex-col gap-20">
+	<CardHeader class="flex w-full flex-col gap-4">
 		<Avatar>
 			<AvatarFallback>
 				<img src={Assets.Unknown.light} alt={project.name} />
@@ -50,7 +50,7 @@
 			<CardTitle class="h-auto min-w-0 flex-1 overflow-x-hidden">
 				<Tooltip>
 					<TooltipTrigger
-						class="w-full overflow-y-auto overflow-x-hidden truncate text-ellipsis text-nowrap text-left"
+						class="w-full overflow-y-auto overflow-x-hidden"
 					>
 						{project.name}
 					</TooltipTrigger>
