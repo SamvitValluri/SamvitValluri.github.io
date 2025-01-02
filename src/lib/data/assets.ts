@@ -80,7 +80,8 @@ const Assets = {
 	Pytorch: asset('PyTorch.svg'),
 	Tensorflow: asset('TensorFlow.svg'),
 	Blank :asset('blank.png', 'blank_dark.png'),
-	NVIDIA: asset('nvidia.svg')
+	NVIDIA: asset('nvidia.svg'),
+	Alteryx: asset('alteryx.svg')
 };
 
 export default Assets;

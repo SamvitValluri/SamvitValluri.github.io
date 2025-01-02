@@ -76,7 +76,7 @@ const items: Array<Project> = [
 		links: [
 			{to: 'https://www.credly.com/badges/4f05cccf-bfc1-4a76-be9a-a2e018453bf8/public_url', label:'Show Credential'}
 		],
-		logo: Assets.Blank,
+		logo: Assets.Alteryx,
 		name: 'Alteryx Designer Core Certification',
 		period: {
 			from: new Date(2024, 10, 27), to: new Date(2026, 10, 27)
