@@ -39,7 +39,7 @@
 	class="flex h-full flex-col"
 	href={href(`/projects/${project.slug}`)}
 >
-	<CardHeader class="flex w-full flex-col gap-6">
+	<CardHeader class="flex w-full flex-col gap-20">
 		<Avatar>
 			<AvatarFallback>
 				<img src={Assets.Unknown.light} alt={project.name} />
