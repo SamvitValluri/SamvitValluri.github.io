@@ -67,6 +67,24 @@ const items: Array<Project> = [
 		]
 	},*/
 	{
+		slug: 'Alteryx',
+		color: '#76b900',
+		description:
+			'',
+		shortDescription:
+			'',
+		links: [
+			{to: 'https://www.credly.com/badges/4f05cccf-bfc1-4a76-be9a-a2e018453bf8/public_url', label:'Show Credential'}
+		],
+		logo: Assets.Blank,
+		name: 'Alteryx Designer Core Certification',
+		period: {
+			from: new Date(2024, 10, 27), to: new Date(2026, 10, 27)
+		},
+		skills: getSkills(),
+		type: 'Issued By: Alteryx'
+	},
+	{
 		slug: 'NVIDIA',
 		color: '#76b900',
 		description:
