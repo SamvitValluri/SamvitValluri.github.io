@@ -67,21 +67,21 @@ const items: Array<Project> = [
 		]
 	},
 	{
-		slug: 'MEDESIGN',
+		slug: 'EBEC',
 		color: '#5e95e3',
 		description:
-			'Final Design Project',
+			'',
 		shortDescription:
-			'FDP',
+			'',
 		links: [
 		],
 		logo: Assets.Unknown,
-		name: 'Automated Table Tennis Paddle Manufacturer',
+		name: 'Entry Level Programming in Python',
 		period: {
-			from: new Date(2022, 0, 1), to: new Date(2022, 4, 1)
+			from: new Date(2020, 11, 1)
 		},
-		skills: getSkills('Solidworks'),
-		type: 'Website Template'
+		skills: getSkills('py'),
+		type: ''
 	},
 ];
 
