@@ -84,7 +84,7 @@ const items: Array<Project> = [
 		skills: getSkills('py', 'np'),
 		type: 'Issued By: Purdue University'
 	},
-	{
+	/**{
 		slug: 'NVIDIA',
 		color: '#5e95e3',
 		description:
@@ -101,7 +101,7 @@ const items: Array<Project> = [
 		},
 		skills: getSkills('py', 'np'),
 		type: 'Issued By: NVIDIA'
-	},
+	},*/
 ];
 
 const title = 'Certifications';
