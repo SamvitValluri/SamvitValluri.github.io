@@ -92,7 +92,7 @@ const items: Array<Project> = [
 		shortDescription:
 			'',
 		links: [
-			{to: 'https://engineering.purdue.edu/Engr/Academics/Undergraduate/Milestones/EBEC_Entry-Level_Programming_in_Python/2020/Fall/DVFRK5B22D61UZliALq94w.png', label:'Show Credential'}
+			{to: 'https://learn.nvidia.com/certificates?id=3df94ba26bdf4bb4842fdbdbc7775195', label:'Show Credential'}
 		],
 		logo: Assets.NVIDIA,
 		name: 'Entry Level Programming in Python',
