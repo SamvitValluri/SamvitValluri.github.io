@@ -68,7 +68,7 @@ const items: Array<Project> = [
 	},*/
 	{
 		slug: 'databrick',
-		color: '#DB4437',
+		color: '#FF3621',
 		description:
 			'',
 		shortDescription:
