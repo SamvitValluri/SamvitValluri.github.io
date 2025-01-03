@@ -185,7 +185,7 @@ const items = [
 		color: 'blue',
 		description:
 			'',
-		logo: Assets.Alteryx,
+		logo: Assets.Alteryx_Designer,
 		name: 'Alteryx Designer',
 		category: 'blank'
 	}),	
