@@ -8,19 +8,10 @@ const defineSkillCategory = <S extends string>(data: SkillCategory<S>): SkillCat
 
 const categories = [
 	defineSkillCategory({ name: 'Programming Languages', slug: 'pro-lang' }),
-	defineSkillCategory({ name: 'Frameworks', slug: 'framework' }),
-	defineSkillCategory({ name: 'Libraries', slug: 'library' }),
-	defineSkillCategory({ name: 'Langauges', slug: 'lang' }),
-	defineSkillCategory({ name: 'Databases', slug: 'db' }),
-	defineSkillCategory({ name: 'ORMs', slug: 'orm' }),
-	defineSkillCategory({ name: 'DevOps', slug: 'devops' }),
-	defineSkillCategory({ name: 'Testing', slug: 'test' }),
-	defineSkillCategory({ name: 'Dev Tools', slug: 'devtools' }),
-	defineSkillCategory({ name: 'Markup & Style', slug: 'markup-style' }),
-	defineSkillCategory({ name: 'Design', slug: 'design' }),
-	defineSkillCategory({ name: 'Soft Skills', slug: 'soft' }),
-	defineSkillCategory({ name: 'Modeling & Analysis Software', slug: 'CAD' }),
-	defineSkillCategory({ name: 'Python Libraries', slug: 'pylib' })
+	defineSkillCategory({ name: 'Design & Analysis Software', slug: 'CAD' }),
+	defineSkillCategory({ name: 'Python Libraries', slug: 'pylib' }),
+	defineSkillCategory({ name: '', slug: 'blank' })
+
 ] as const;
 
 const defineSkill = <S extends string>(
@@ -188,6 +179,15 @@ const items = [
 		logo: Assets.Tensorflow,
 		name: 'Tensorflow',
 		category: 'pylib'
+	}),	
+	defineSkill({
+		slug: 'alteryx',
+		color: 'orange',
+		description:
+			'',
+		logo: Assets.Alteryx,
+		name: 'Alteryx',
+		category: 'blank'
 	}),	
 ] as const;
 
