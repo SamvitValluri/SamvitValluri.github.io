@@ -99,7 +99,7 @@ const items: Array<Project> = [
 		period: {
 			from: new Date(2024, 11, 30)
 		},
-		skills: getSkills('py'),
+		skills: getSkills('R', 'SQL'),
 		type: 'Issued By: Google'
 	},
 	{
