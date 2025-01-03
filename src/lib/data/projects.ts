@@ -68,7 +68,7 @@ const items: Array<Project> = [
 	},*/
 	{
 		slug: 'googldata',
-		color: '#76b900',
+		color: '#DB4437',
 		description:
 			'',
 		shortDescription:
