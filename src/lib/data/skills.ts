@@ -203,7 +203,7 @@ const items = [
 		color: 'green',
 		description:
 			'',
-		logo: Assets.Blank,
+		logo: Assets.R,
 		name: 'R',
 		category: 'pro-lang'
 	}),	

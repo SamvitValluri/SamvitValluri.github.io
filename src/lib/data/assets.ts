@@ -84,7 +84,8 @@ const Assets = {
 	Alteryx: asset('alteryx.svg'),
 	Alteryx_Designer: asset('alteryx_designer.png'),
 	Google: asset('google.svg'),
-	Databricks: asset('Databricks.svg')
+	Databricks: asset('Databricks.svg'),
+	R : asset('R.svg')
 };
 
 export default Assets;
