@@ -89,8 +89,8 @@
 			<Muted>{project.type}</Muted>
 		</Muted>
 		<Muted className="flex flex-row gap-2 items-center">
-			<Icon icon="i-carbon-time" />
-			<!--<Muted>{exactDuration}</Muted>-->
+			<!--<Icon icon="i-carbon-time" />
+			<Muted>{exactDuration}</Muted>-->
 		</Muted>
 		<Muted className="flex-1">{ellipsify(project.shortDescription, 100)}</Muted>
 		<div class="flex w-full flex-row items-center justify-between">
