@@ -194,7 +194,7 @@ const items = [
 		color: 'green',
 		description:
 			'',
-		logo: Assets.Blank,
+		logo: Assets.Excel,
 		name: 'Microsoft Excel',
 		category: 'blank'
 	}),	
