@@ -104,7 +104,7 @@ const items: Array<Project> = [
 	},
 	{
 		slug: 'Alteryx',
-		color: '#76b900',
+		color: '#469cff',
 		description:
 			'',
 		shortDescription:
