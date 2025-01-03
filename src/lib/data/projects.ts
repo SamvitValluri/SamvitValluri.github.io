@@ -67,6 +67,24 @@ const items: Array<Project> = [
 		]
 	},*/
 	{
+		slug: 'databricks',
+		color: '#DB4437',
+		description:
+			'',
+		shortDescription:
+			'',
+		links: [
+			{to: 'https://credentials.databricks.com/9d01b017-c62b-46fd-874a-af882f1cba6d#acc.gLpFyWPf', label:'Show Credential'}
+		],
+		logo: Assets.Google,
+		name: 'Academy Accreditation - Databricks Fundamentals',
+		period: {
+			from: new Date(2024, 11, 12), to: new Date(2025, 11, 12)
+		},
+		skills: getSkills('py'),
+		type: 'Issued By: Databricks'
+	},
+	{
 		slug: 'googldata',
 		color: '#DB4437',
 		description:
