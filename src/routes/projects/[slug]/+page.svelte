@@ -76,6 +76,6 @@
 					{/each}
 				</div>
 			{/if}
-		</div>
-	{/if}-->
+		</div>-->
+	{/if}
 </BasePage>
