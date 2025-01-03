@@ -81,7 +81,8 @@ const Assets = {
 	Tensorflow: asset('TensorFlow.svg'),
 	Blank :asset('blank.png', 'blank_dark.png'),
 	NVIDIA: asset('nvidia.svg'),
-	Alteryx: asset('alteryx.svg')
+	Alteryx: asset('alteryx.svg'),
+	Google: asset('google.svg')
 };
 
 export default Assets;

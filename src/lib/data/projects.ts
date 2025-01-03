@@ -67,6 +67,24 @@ const items: Array<Project> = [
 		]
 	},*/
 	{
+		slug: 'googldata',
+		color: '#76b900',
+		description:
+			'',
+		shortDescription:
+			'',
+		links: [
+			{to: 'https://www.credly.com/badges/fc09de7b-a3cd-4e0d-b88b-9834b7f059bb/public_url', label:'Show Credential'}
+		],
+		logo: Assets.Google,
+		name: 'Google Data Analytics Certificate',
+		period: {
+			from: new Date(2024, 11, 30)
+		},
+		skills: getSkills('py'),
+		type: 'Issued By: Google'
+	},
+	{
 		slug: 'Alteryx',
 		color: '#76b900',
 		description:
