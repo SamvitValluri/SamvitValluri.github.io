@@ -81,7 +81,7 @@ const items: Array<Project> = [
 		period: {
 			from: new Date(2024, 10, 27), to: new Date(2026, 10, 27)
 		},
-		skills: getSkills(),
+		skills: getSkills('alteryx'),
 		type: 'Issued By: Alteryx'
 	},
 	{
