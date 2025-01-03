@@ -11,7 +11,7 @@ const hero: {
 } = {
 	title: `${BaseData.fullName}`,
 	description:
-		'Interesting text about me. I am a very interesting person. This is text',
+		'',
 	links: [
 		{ label: 'GitHub', href: 'https://github.com/SamvitValluri', icon: 'i-carbon-logo-github' },
 		{ label: 'LinkedIn', href: 'https://www.linkedin.com/in/samvit-valluri/', icon: 'i-carbon-logo-linkedin' },
