@@ -75,7 +75,7 @@ const Assets = {
 	Solidworks: asset('SolidWorks.svg'),
 	Catia: asset('Catia.svg'),
 	ANSYS: asset('Ansys.svg', 'Ansys_dark.svg'),
-	ABAQUS: asset('abaqus.png'),
+	ABAQUS: asset('Abaqus.png'),
 	Fusion360: asset('Fusion360.svg'),
 	Pytorch: asset('PyTorch.svg'),
 	Tensorflow: asset('TensorFlow.svg'),
