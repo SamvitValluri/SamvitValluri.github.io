@@ -67,7 +67,7 @@ const items: Array<Project> = [
 		]
 	},*/
 	{
-		slug: 'databricks',
+		slug: 'databrick',
 		color: '#DB4437',
 		description:
 			'',
@@ -76,7 +76,7 @@ const items: Array<Project> = [
 		links: [
 			{to: 'https://credentials.databricks.com/9d01b017-c62b-46fd-874a-af882f1cba6d#acc.gLpFyWPf', label:'Show Credential'}
 		],
-		logo: Assets.Databricks,
+		logo: Assets.Databricks, 
 		name: 'Academy Accreditation - Databricks Fundamentals',
 		period: {
 			from: new Date(2024, 11, 12), to: new Date(2025, 11, 12)
