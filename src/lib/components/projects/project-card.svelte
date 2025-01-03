@@ -88,15 +88,15 @@
 			<Icon icon="i-carbon-assembly-cluster" />
 			<Muted>{project.type}</Muted>
 		</Muted>
-		<!--<Muted className="flex flex-row gap-2 items-center">
+		<Muted className="flex flex-row gap-2 items-center">
 			<Icon icon="i-carbon-time" />
-			<Muted>{exactDuration}</Muted>
+			<!--<Muted>{exactDuration}</Muted>-->
 		</Muted>
 		<Muted className="flex-1">{ellipsify(project.shortDescription, 100)}</Muted>
 		<div class="flex w-full flex-row items-center justify-between">
 			<Badge variant="outline">{from}</Badge>
 			<Badge variant="outline">{to}</Badge>
-		</div>-->
+		</div>
 		<Separator />
 	</CardContent>
 	<CardFooter class="flex flex-row flex-wrap items-center gap-2">
