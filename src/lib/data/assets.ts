@@ -85,7 +85,8 @@ const Assets = {
 	Alteryx_Designer: asset('alteryx_designer.png'),
 	Google: asset('google.svg'),
 	Databricks: asset('Databricks.svg'),
-	R : asset('R.svg')
+	R : asset('R.svg'),
+	Excel :asset('Microsft_Excel.svg')
 };
 
 export default Assets;
