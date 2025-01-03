@@ -86,7 +86,7 @@ const Assets = {
 	Google: asset('google.svg'),
 	Databricks: asset('Databricks.svg'),
 	R : asset('R.svg'),
-	Excel :asset('Microsft_Excel.svg')
+	Excel :asset('Microsoft_Excel.svg')
 };
 
 export default Assets;
