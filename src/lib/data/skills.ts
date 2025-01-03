@@ -181,12 +181,12 @@ const items = [
 		category: 'pylib'
 	}),	
 	defineSkill({
-		slug: 'alteryx',
-		color: 'orange',
+		slug: 'alteryx_d',
+		color: 'blue',
 		description:
 			'',
 		logo: Assets.Alteryx,
-		name: 'Alteryx',
+		name: 'Alteryx Designer',
 		category: 'blank'
 	}),	
 ] as const;

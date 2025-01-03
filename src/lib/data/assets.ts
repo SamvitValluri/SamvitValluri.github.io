@@ -82,6 +82,7 @@ const Assets = {
 	Blank :asset('blank.png', 'blank_dark.png'),
 	NVIDIA: asset('nvidia.svg'),
 	Alteryx: asset('alteryx.svg'),
+	Alteryx_Designer: asset('alteryx_designer.png'),
 	Google: asset('google.svg')
 };
 
