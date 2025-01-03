@@ -83,7 +83,8 @@ const Assets = {
 	NVIDIA: asset('nvidia.svg'),
 	Alteryx: asset('alteryx.svg'),
 	Alteryx_Designer: asset('alteryx_designer.png'),
-	Google: asset('google.svg')
+	Google: asset('google.svg'),
+	Databricks: asset('Databricks.svg')
 };
 
 export default Assets;
