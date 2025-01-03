@@ -131,7 +131,7 @@ const items = [
 		color: 'blue',
 		description:
 			'',
-		logo: Assets.Blank,
+		logo: Assets.ABAQUS,
 		name: 'Abaqus',
 		category: 'CAD'
 	}),
