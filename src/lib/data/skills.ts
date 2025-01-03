@@ -189,6 +189,33 @@ const items = [
 		name: 'Alteryx Designer',
 		category: 'blank'
 	}),	
+	defineSkill({
+		slug: 'xl',
+		color: 'green',
+		description:
+			'',
+		logo: Assets.Blank,
+		name: 'Microsoft Excel',
+		category: 'blank'
+	}),	
+	defineSkill({
+		slug: 'R',
+		color: 'green',
+		description:
+			'',
+		logo: Assets.Blank,
+		name: 'R',
+		category: 'pro-lang'
+	}),	
+	defineSkill({
+		slug: 'SQL',
+		color: 'blue',
+		description:
+			'',
+		logo: Assets.Blank,
+		name: 'SQL',
+		category: 'pro-lang'
+	}),	
 ] as const;
 
 const SkillsData = {
