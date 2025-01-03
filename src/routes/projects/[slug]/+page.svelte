@@ -61,7 +61,7 @@
 			</div>
 		</FancyBanner>
 		<Separator />
-		{#if data.item.description.trim()}
+		<!--{#if data.item.description.trim()}
 			<Markdown content={data.item.description} />
 		{:else}
 			<EmptyMarkdown />
@@ -77,5 +77,5 @@
 				</div>
 			{/if}
 		</div>
-	{/if}
+	{/if}-->
 </BasePage>
