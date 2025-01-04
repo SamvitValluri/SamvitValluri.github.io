@@ -56,7 +56,7 @@ const items: Array<Project> = [
 			'',
 		shortDescription:
 			'',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+		links: [{}],
 		logo: Assets.PSR,
 		name: 'Purdue Solar Racing',
 		period: {
