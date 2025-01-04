@@ -14,7 +14,7 @@ const items: Array<Education> = [
 		organization: 'West Lafayette',
 		period: { from: new Date(2018, 7, 1), to: new Date(2022, 4, 1) },
 		slug: 'Purdue',
-		subjects: ['solar']
+		subjects: []
 	}
 ];
 
