@@ -60,7 +60,7 @@ const items: Array<Project> = [
 		logo: Assets.PSR,
 		name: 'Senior Design Project',
 		period: {
-			from: new Date(2022, 0, 1), to: new Date(2022, 5, 1)
+			from: new Date(2022, 0, 1), to: new Date(2022, 4, 1)
 		},
 		skills: getSkills('cpp', 'Solidworks', 'ANSYS'),
 		type: '',
