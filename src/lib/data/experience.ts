@@ -50,6 +50,22 @@ const items: Array<Project> = [
 		]
 	},*/
 	{
+		slug: 'ME463',
+		color: '#ff3e00',
+		description:
+			'',
+		shortDescription:
+			'',
+		links: [{}],
+		logo: Assets.PSR,
+		name: 'Senior Design Project',
+		period: {
+			from: new Date(2022, 0, 1), to: new Date(2022, 5, 1)
+		},
+		skills: getSkills('cpp', 'Solidworks', 'ANSYS'),
+		type: '',
+	},
+	{
 		slug: 'solar',
 		color: '#ff3e00',
 		description:
