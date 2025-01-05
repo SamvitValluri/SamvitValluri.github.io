@@ -62,7 +62,7 @@ const items: Array<Project> = [
 		period: {
 			from: new Date(2022, 1, 1), to: new Date(2022, 4, 1)
 		},
-		skills: getSkills('cpp', 'Solidworks', 'ANSYS', 'Matlab'),
+		skills: getSkills('cpp', 'Solidworks', 'Matlab'),
 		type: '',
 	},
 	{
