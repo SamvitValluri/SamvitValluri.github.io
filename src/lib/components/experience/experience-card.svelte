@@ -1,4 +1,4 @@
-<!--<script lang="ts">
+<script lang="ts">
 	import Assets from '$lib/data/assets';
 	import type { Experience } from '$lib/data/types';
 	import { computeExactDuration, getMonthAndYear, href } from '$lib/utils';
@@ -40,7 +40,7 @@
 		</Avatar>
 		<div class="flex flex-col gap-4">
 			<CardTitle>{it.name}</CardTitle>
-			<div class="flex flex-row flex-wrap gap-1">
+			<!--<div class="flex flex-row flex-wrap gap-1">
 				{#each badges as badge (badge.icon)}
 					<Tooltip openDelay={300}>
 						<TooltipTrigger>
@@ -52,7 +52,7 @@
 						</TooltipTrigger>
 					</Tooltip>
 				{/each}
-			</div>
+			</div>-->
 			<Tooltip openDelay={300}>
 				<TooltipTrigger>
 					<Muted className="flex flex-row items-center gap-2">
@@ -80,113 +80,3 @@
 		</div>
 	</CardContent>
 </FancyCard>
--->
-
-<script lang="ts">
-	import Assets from '$lib/data/assets';
-	import type { Project } from '$lib/data/types';
-	import { computeExactDuration, getMonthAndYear, href } from '$lib/utils';
-	import { ellipsify } from '@riadh-adrani/utils';
-	import { mode } from 'mode-watcher';
-	import ButtonLink from '../common/button-link/button-link.svelte';
-	import SkillBadge from '../common/skill-badge/skill-badge.svelte';
-	import AvatarFallback from '../ui/avatar/avatar-fallback.svelte';
-	import AvatarImage from '../ui/avatar/avatar-image.svelte';
-	import Avatar from '../ui/avatar/avatar.svelte';
-	import Badge from '../ui/badge/badge.svelte';
-	import Button from '../ui/button/button.svelte';
-	import { CardHeader } from '../ui/card';
-	import CardContent from '../ui/card/card-content.svelte';
-	import CardFooter from '../ui/card/card-footer.svelte';
-	import CardTitle from '../ui/card/card-title.svelte';
-	import FancyCard from '../ui/card/fancy-card.svelte';
-	import {
-		DropdownMenu,
-		DropdownMenuContent,
-		DropdownMenuItem,
-		DropdownMenuTrigger
-	} from '../ui/dropdown-menu';
-	import Icon from '../ui/icon/icon.svelte';
-	import Separator from '../ui/separator/separator.svelte';
-	import { Tooltip, TooltipContent, TooltipTrigger } from '../ui/tooltip';
-	import Muted from '../ui/typography/muted.svelte';
-
-	const { project }: { project: Project } = $props();
-
-	let from = $derived(getMonthAndYear(it.period.from));
-	let to = $derived(getMonthAndYear(it.period.to));
-	let exactDuration = $derived(computeExactDuration(it.period.from, it.period.to));
-</script>
-
-<FancyCard
-	color={it.color}
-	class="flex h-full flex-col"
-	href={href(`/experience/${it.slug}`)}
->
-	<CardHeader class="flex w-full flex-col gap-4">
-		<Avatar>
-			<AvatarFallback>
-				<img src={Assets.Unknown.light} alt={it.name} />
-			</AvatarFallback>
-			<AvatarImage src={$mode === 'dark' ? it.logo.dark : it.logo.light} />
-		</Avatar>
-		<div class="flex w-full flex-row items-center gap-1 overflow-x-hidden">
-			<CardTitle class="h-auto min-w-0 flex-1 overflow-x-hidden">
-				<Tooltip>
-					<TooltipTrigger
-						class="w-full overflow-y-auto overflow-x-hidden"
-					>
-						{it.name}
-					</TooltipTrigger>
-					<TooltipContent>{it.name}</TooltipContent>
-				</Tooltip>
-			</CardTitle>
-			{#if it.links.length > 2}
-				<ButtonLink link={it.links[0]} />
-				<DropdownMenu>
-					<DropdownMenuTrigger>
-						<Button size="icon" variant="outline"
-							><Icon icon="i-carbon-overflow-menu-vertical" /></Button
-						>
-					</DropdownMenuTrigger>
-					<DropdownMenuContent>
-						{#each it.links.slice(1) as link (link.to)}
-							<a href={link.to} target={'_blank'}>
-								<DropdownMenuItem>
-									{link.label}
-								</DropdownMenuItem>
-							</a>
-						{/each}
-					</DropdownMenuContent>
-				</DropdownMenu>
-			{:else}
-				{#each it.links as link (link.to)}
-					<ButtonLink {link} />
-				{/each}
-			{/if}
-		</div>
-		<Separator />
-	</CardHeader>
-	<CardContent class="flex flex-1 flex-col gap-4">
-		<Muted className="flex flex-row gap-2 items-center">
-			<Icon icon="i-carbon-assembly-cluster" />
-			<Muted>{it.type}</Muted>
-		</Muted>
-		<Muted className="flex flex-row gap-2 items-center">
-			<!--<Icon icon="i-carbon-time" />
-			<Muted>{exactDuration}</Muted>-->
-		</Muted>
-		<Muted className="flex-1">{ellipsify(it.shortDescription, 100)}</Muted>
-		<div class="flex w-full flex-row items-center justify-between">
-			<Badge variant="outline">{from}</Badge>
-			<Badge variant="outline">{to}</Badge>
-		</div>
-		<Separator />
-	</CardContent>
-	<CardFooter class="flex flex-row flex-wrap items-center gap-2">
-		{#each it.skills as skill (skill.slug)}
-			<SkillBadge {skill} />
-		{/each}
-	</CardFooter>
-</FancyCard>
-
