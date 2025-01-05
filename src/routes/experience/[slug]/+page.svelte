@@ -10,11 +10,11 @@
 	import H1 from '$lib/components/ui/typography/h1.svelte';
 	import Muted from '$lib/components/ui/typography/muted.svelte';
 	import Assets from '$lib/data/assets';
-	import type { Project } from '$lib/data/types';
+	import type { Experience } from '$lib/data/types';
 	import { computeExactDuration, getMonthAndYear, href } from '$lib/utils';
 	import { mode } from 'mode-watcher';
 
-	let { data }: { data: { item?: Project } } = $props();
+	let { data }: { data: { item?: Experience } } = $props();
 
 	let title = $derived(`${data?.item?.name ?? 'Not Found'} - Skills`);
 	let banner = $derived(
