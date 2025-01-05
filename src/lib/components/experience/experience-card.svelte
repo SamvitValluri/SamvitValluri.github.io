@@ -121,7 +121,7 @@
 <FancyCard
 	color={project.color}
 	class="flex h-full flex-col"
-	href={href(`/projects/${project.slug}`)}
+	href={href(`//experience/${it.slug}}`)}
 >
 	<CardHeader class="flex w-full flex-col gap-4">
 		<Avatar>
