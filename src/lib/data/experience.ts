@@ -107,7 +107,7 @@ const items: Array<Project> = [
 		links: [{to: 'https://purdueseds.space/wp-content/uploads/psp-sl/casper/cdr/Purdue%20University%20-%202020%20CDR%20Presentation.pdf', label : 'Flight Readiness Review Presentation'},
 				{to: 'https://purdueseds.space/wp-content/uploads/psp-sl/casper/frr/Purdue%20University%20-%202020%20FRR%20Report.pdf', label: 'Flight Readiness Review Report'}
 		],
-		logo: Assets.PSR,
+		logo: Assets.PSP,
 		name: 'Purdue Space Program',
 		period: {
 			from: new Date(2019, 7, 1), to: new Date(2020, 11, 1)

@@ -87,7 +87,8 @@ const Assets = {
 	Databricks: asset('Databricks.svg'),
 	R : asset('R.svg'),
 	Excel :asset('Microsoft_Excel.svg'),
-	PSR: asset('PSR.jpeg')
+	PSR: asset('PSR.jpeg'),
+	PSP: asset('PSP.svg')
 };
 
 export default Assets;
