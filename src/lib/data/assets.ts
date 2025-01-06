@@ -88,7 +88,7 @@ const Assets = {
 	R : asset('R.svg'),
 	Excel :asset('Microsoft_Excel.svg'),
 	PSR: asset('PSR.jpeg'),
-	PSP: asset('PSP_light','PSP.svg')
+	PSP: asset('PSP_light.svg','PSP.svg')
 };
 
 export default Assets;
