@@ -102,7 +102,7 @@ const items: Array<Project> = [
 		slug: 'PSP',
 		color: '#ff3e00',
 		description:
-			 '# Pokemon_Battle_AI
+			 `# Pokemon_Battle_AI
 
 Project Summary:
 
@@ -182,7 +182,7 @@ Teams that Each Player is Using.
 
 Data Pre-Processing such as PCA. In order to not use 40+ GB of RAM This Section also Uses Generators to send data.
 
-',
+`,
 		shortDescription:
 			'Created a MATLAB Simulink model using various rocket component characteristics and environmental characteristics to verify and validate the rocket trajectory',
 		links: [{to: 'https://purdueseds.space/wp-content/uploads/psp-sl/casper/cdr/Purdue%20University%20-%202020%20CDR%20Presentation.pdf', label : 'Flight Readiness Review Presentation'},
