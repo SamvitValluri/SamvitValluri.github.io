@@ -1,6 +1,7 @@
 import Assets from './assets';
 import { getSkills } from './skills';
 import { ContractType, type Project } from './types';
+import { href } from '$lib/utils';
 
 
 const title = 'Projects';
@@ -101,7 +102,7 @@ const items: Array<Project> = [
 		slug: 'PSP',
 		color: '#ff3e00',
 		description:
-			'This is another test',
+			 href('/pdf/resume.pdf'),
 		shortDescription:
 			'Created a MATLAB Simulink model using various rocket component characteristics and environmental characteristics to verify and validate the rocket trajectory',
 		links: [{to: 'https://purdueseds.space/wp-content/uploads/psp-sl/casper/cdr/Purdue%20University%20-%202020%20CDR%20Presentation.pdf', label : 'Flight Readiness Review Presentation'},
