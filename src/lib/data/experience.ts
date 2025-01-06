@@ -103,7 +103,7 @@ const items: Array<Project> = [
 		description:
 			'',
 		shortDescription:
-			'This is a test',
+			'Created a MATLAB Simulink model using various rocket component characteristics and environmental characteristics to verify and validate the rocket trajectory obtained from OpenRocket and RAS Aero II • Conducted various tests to ensure the working of components such as the altimeter, main and drogue parachute, andblack powder charges to ensure the flight would meet the safety and technical requirements',
 		links: [{to: 'https://purdueseds.space/wp-content/uploads/psp-sl/casper/cdr/Purdue%20University%20-%202020%20CDR%20Presentation.pdf', label : 'Flight Readiness Review Presentation'},
 				{to: 'https://purdueseds.space/wp-content/uploads/psp-sl/casper/frr/Purdue%20University%20-%202020%20FRR%20Report.pdf', label: 'Flight Readiness Review Report'}
 		],
