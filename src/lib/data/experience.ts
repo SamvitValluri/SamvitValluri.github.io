@@ -103,8 +103,8 @@ const items: Array<Project> = [
 		color: '#ff3e00',
 		description:
 `
--item Created a MATLAB Simulink model using various rocket component characteristics and environmental characteristics to
-verify and validate the rocket trajectory obtained from OpenRocket and RAS Aero II
+-Created a MATLAB Simulink model using various rocket component characteristics and environmental characteristics to verify and validate the rocket trajectory obtained from OpenRocket and RAS Aero II
+- another test
 `,
 		shortDescription:
 			'Avionics Sub-Team',
