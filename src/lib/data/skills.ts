@@ -212,7 +212,7 @@ const items = [
 		color: 'blue',
 		description:
 			'',
-		logo: Assets.Blank,
+		logo: Assets.SQL,
 		name: 'SQL',
 		category: 'pro-lang'
 	}),	
