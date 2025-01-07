@@ -103,6 +103,9 @@ const items: Array<Project> = [
 		color: '#ff3e00',
 		description:
 `
+##Mission Statement
+-Design, build, test, and fly a student-crafted launch vehicle to a predetermined altitude
+-To carry a payload consisting of an unmanned aerial system (UAS) capable of collecting a lunar ice sample and moving it a set distance
 -Created a MATLAB Simulink model using various rocket component characteristics and environmental characteristics to verify and validate the rocket trajectory obtained from OpenRocket and RAS Aero II
 - another test
 `,
