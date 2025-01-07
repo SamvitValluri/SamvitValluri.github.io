@@ -107,7 +107,8 @@ const items: Array<Project> = [
 - Design, build, test, and fly a student-crafted launch vehicle to a predetermined altitude
 - To carry a payload consisting of an unmanned aerial system (UAS) capable of collecting a lunar ice sample and moving it a set distance
 ## Avionics Sub-Team
-- Created a MATLAB Simulink model using various rocket component characteristics and environmental characteristics to verify and validate the rocket trajectory obtained from OpenRocket and RAS Aero II
+- Created a MATLAB Simulink model using various rocket component characteristics and environmental characteristics to verify and validate the rocket trajectory obtained from OpenRocket and RAS Aero II. The code was within 10% of the actual value for the apogee
+of the launch. 
 `,
 		shortDescription:
 			'Avionics Sub-Team',
