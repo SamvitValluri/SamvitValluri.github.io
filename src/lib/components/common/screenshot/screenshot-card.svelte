@@ -28,7 +28,7 @@
 			>
 		</Card>
 	</DialogTrigger>
-	<DialogContent class="flex min-h-[95%] min-w-[95%] flex-col">
+	<DialogContent class="flex min-h-[80%] min-w-[80%] flex-col">
 		<DialogTitle>{item.label}</DialogTitle>
 		<div
 			class="flex-1 bg-cover bg-center bg-no-repeat"
