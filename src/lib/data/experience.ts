@@ -125,6 +125,11 @@ of safety
 		},
 		skills: getSkills('Matlab', 'Solidworks'),
 		type: '',
+		screenshots: [
+			{
+				label: 'Avionics CAD',
+				src: './Project_Screenshots/PSP_CAD.png'
+			},
 	},
 ];
 
