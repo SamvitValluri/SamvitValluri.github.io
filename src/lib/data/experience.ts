@@ -130,6 +130,10 @@ of safety
 				label: 'Avionics CAD',
 				src: 'https://cdn.discordapp.com/attachments/982761416488546375/1326370078454710322/Screenshot_2025-01-07_210046.png?ex=677f2de5&is=677ddc65&hm=28774b23b2ddb766e527b454928761e20c31dd937d16a97134c52a8f665b714a&'
 			},
+			{
+				label: 'Predicted Trajectory',
+				src: 'https://cdn.discordapp.com/attachments/982761416488546375/1326453213724934205/image.png?ex=677f7b52&is=677e29d2&hm=9e733d130bdc2cd9ea1dd47f22aa76da7424a52fd7bfbfb3c8f4b397a1f1aacd&'
+			}
 		]
 	},
 ];
