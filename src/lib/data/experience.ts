@@ -128,8 +128,9 @@ of safety
 		screenshots: [
 			{
 				label: 'Avionics CAD',
-				src: '/Project_Screenshots/PSP_CAD.png'
+				src: '/Project_Screenshots/PSP_CAD'
 			},
+		]
 	},
 ];
 
