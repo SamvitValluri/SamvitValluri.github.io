@@ -38,6 +38,6 @@
 			<DialogClose>
 				<Button>Close</Button>
 			</DialogClose>
-		</DialogFooter>
-	</DialogContent>-->
+		</DialogFooter>-->
+	</DialogContent>
 </Dialog>
