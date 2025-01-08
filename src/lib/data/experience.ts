@@ -51,7 +51,7 @@ const items: Array<Project> = [
 		]
 	},*/
 	{
-		slug: 'ME563',a
+		slug: 'ME563',
 		color: '#ff3e00',
 		description:
 			'',
