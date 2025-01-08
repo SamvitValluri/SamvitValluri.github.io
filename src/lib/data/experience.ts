@@ -128,7 +128,7 @@ of safety
 		screenshots: [
 			{
 				label: 'Avionics CAD',
-				src: './Project_Screenshots/PSP_CAD'
+				src: 'https://cdn.discordapp.com/attachments/982761416488546375/1326358736620752906/PSP_CAD.png?ex=677f2355&is=677dd1d5&hm=22c36dbc827992d97d2b820a26ea20484ce129e7af70822894c142b8c51b346d&'
 			},
 		]
 	},
