@@ -128,7 +128,7 @@ of safety
 		screenshots: [
 			{
 				label: 'Avionics CAD',
-				src: 'https://cdn.discordapp.com/attachments/982761416488546375/1326364050334027838/Screenshot_2025-01-07_203643.png?ex=677f2848&is=677dd6c8&hm=187f0cd05b4118fd2805bd33875a0ad6ddfd2c9329a8ca2d1ceeae6d468f5257&'
+				src: 'https://cdn.discordapp.com/attachments/982761416488546375/1326370078454710322/Screenshot_2025-01-07_210046.png?ex=677f2de5&is=677ddc65&hm=28774b23b2ddb766e527b454928761e20c31dd937d16a97134c52a8f665b714a&'
 			},
 		]
 	},
