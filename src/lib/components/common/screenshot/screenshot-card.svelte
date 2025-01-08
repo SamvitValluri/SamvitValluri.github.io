@@ -22,7 +22,7 @@
 			class="flex aspect-square flex-col justify-end bg-cover bg-center bg-no-repeat"
 			style={`background-image:url("${item.src}")`}
 		>
-			<!--<Separator /> -->
+			<Separator />
 			<CardFooter class="rounded-b-md bg-[#00000099] pt-4 text-white backdrop-blur-sm"
 				>{item.label}</CardFooter
 			>
