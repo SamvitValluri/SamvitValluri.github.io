@@ -112,8 +112,7 @@ of the launch.
 - Conducted various tests to highlight any failure modes and ensure the working of components such as the altimeter, main and drogue parachute, and black powder charges to ensure the flight would meet the safety and technical requirements
 - Designed the avionics bay in Solidworks to house the recovery hardware, including altimeters and ejection charges, andperformed a structural analysis on the bulkheads during parachute deployment to ensure the device was within the factor
 of safety
-![test](PSPCAD.png "caption")
-![Alt text](https://imgs.search.brave.com/LAee0Ju4_H8on1Fj1QmUvHQFknMXNF_UtBCWJ1bWoAY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vcGljanVt/Ym8uY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy9saW9uLXN0YXJl/LXNlcmlvdXMtcG9y/dHJhaXQtZGFyay1i/bGFjay1hbmQtd2hp/dGUtZnJlZS1waG90/by5qcGc_aD04MDAm/cXVhbGl0eT04MA "a title")
+![Alt text](https://media.discordapp.net/attachments/982761416488546375/1326370078454710322/Screenshot_2025-01-07_210046.png?ex=67924ba5&is=6790fa25&hm=b2f506a89b94b2ea9a52d7a5ff8a53c33c06c879910ffff162edf4252a166ca5&=&format=webp&quality=lossless&width=653&height=437"a title")
 `,	
 		shortDescription:
 			'Avionics Sub-Team',
