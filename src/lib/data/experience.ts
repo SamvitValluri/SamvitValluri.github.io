@@ -2,6 +2,7 @@ import Assets from './assets';
 import { getSkills } from './skills';
 import { ContractType, type Project } from './types';
 import { href } from '$lib/utils';
+import { base } from '$app/paths';
 
 
 const title = 'Projects';
@@ -112,6 +113,8 @@ of the launch.
 - Conducted various tests to highlight any failure modes and ensure the working of components such as the altimeter, main and drogue parachute, and black powder charges to ensure the flight would meet the safety and technical requirements
 - Designed the avionics bay in Solidworks to house the recovery hardware, including altimeters and ejection charges, andperformed a structural analysis on the bulkheads during parachute deployment to ensure the device was within the factor
 of safety
+
+![Alt text2](${base}/Project_Screenshots/PSPCAD.png)
 
 ![Alt text](https://images.pexels.com/photos/2280547/pexels-photo-2280547.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
 `,	
