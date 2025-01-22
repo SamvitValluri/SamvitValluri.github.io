@@ -1,0 +1,13 @@
+import{A as e}from"./assets.pze9OsdF.js";import{a as t}from"./skills.CNioHW-G.js";import"./paths.8ro2WRXL.js";const o="Projects",a=[{slug:"ME563",color:"#ff3e00",description:"",shortDescription:"",links:[{}],logo:e.PSR,name:"Mechatronics Project",period:{from:new Date(2022,1,1),to:new Date(2022,4,1)},skills:t("cpp","Solidworks","Matlab"),type:""},{slug:"ME463",color:"#ff3e00",description:"",shortDescription:"",links:[{}],logo:e.PSR,name:"Senior Design Project",period:{from:new Date(2022,0,1),to:new Date(2022,4,1)},skills:t("cpp","Solidworks","ANSYS"),type:""},{slug:"solar",color:"#ff3e00",description:"",shortDescription:"",links:[{}],logo:e.PSR,name:"Purdue Solar Racing",period:{from:new Date(2019,0,1),to:new Date(2020,11,1)},skills:t("Fusion360"),type:""},{slug:"PSP",color:"#ff3e00",description:`
+## Objective
+- Design, build, test, and fly a student-crafted launch vehicle to a predetermined altitude
+- To carry a payload consisting of an unmanned aerial system (UAS) capable of collecting a lunar ice sample and moving it a set distance
+## Avionics Sub-Team
+- Created a MATLAB Simulink model using various rocket component characteristics and environmental characteristics to verify and validate the rocket trajectory obtained from OpenRocket and RAS Aero II. The code was within 10% of the actual value for the apogee
+of the launch. 
+- Conducted various tests to highlight any failure modes and ensure the working of components such as the altimeter, main and drogue parachute, and black powder charges to ensure the flight would meet the safety and technical requirements
+- Designed the avionics bay in Solidworks to house the recovery hardware, including altimeters and ejection charges, andperformed a structural analysis on the bulkheads during parachute deployment to ensure the device was within the factor
+of safety
+![test](./Project_Screenshots/PSP_CAD.png)
+![Alt text](https://imgs.search.brave.com/LAee0Ju4_H8on1Fj1QmUvHQFknMXNF_UtBCWJ1bWoAY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vcGljanVt/Ym8uY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy9saW9uLXN0YXJl/LXNlcmlvdXMtcG9y/dHJhaXQtZGFyay1i/bGFjay1hbmQtd2hp/dGUtZnJlZS1waG90/by5qcGc_aD04MDAm/cXVhbGl0eT04MA "a title")
+`,shortDescription:"Avionics Sub-Team",links:[{to:"https://purdueseds.space/wp-content/uploads/psp-sl/casper/cdr/Purdue%20University%20-%202020%20CDR%20Presentation.pdf",label:"Flight Readiness Review Presentation"},{to:"https://purdueseds.space/wp-content/uploads/psp-sl/casper/frr/Purdue%20University%20-%202020%20FRR%20Report.pdf",label:"Flight Readiness Review Report"}],logo:e.PSP,name:"Purdue Space Program",period:{from:new Date(2019,7,1),to:new Date(2020,11,1)},skills:t("Matlab","Solidworks"),type:""}],n={title:o,items:a};export{n as E};
