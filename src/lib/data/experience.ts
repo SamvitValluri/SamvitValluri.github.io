@@ -113,8 +113,8 @@ of the launch.
 - Designed the avionics bay in Solidworks to house the recovery hardware, including altimeters and ejection charges, andperformed a structural analysis on the bulkheads during parachute deployment to ensure the device was within the factor
 of safety
 ![test](./Project_Screenshots/PSP_CAD.png)
-![Alt text](https://assets.digitalocean.com/articles/alligator/boo.svg "a title")
-`,
+![Alt text](https://imgs.search.brave.com/LAee0Ju4_H8on1Fj1QmUvHQFknMXNF_UtBCWJ1bWoAY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vcGljanVt/Ym8uY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy9saW9uLXN0YXJl/LXNlcmlvdXMtcG9y/dHJhaXQtZGFyay1i/bGFjay1hbmQtd2hp/dGUtZnJlZS1waG90/by5qcGc_aD04MDAm/cXVhbGl0eT04MA "a title")
+`,	
 		shortDescription:
 			'Avionics Sub-Team',
 		links: [{to: 'https://purdueseds.space/wp-content/uploads/psp-sl/casper/cdr/Purdue%20University%20-%202020%20CDR%20Presentation.pdf', label : 'Flight Readiness Review Presentation'},
