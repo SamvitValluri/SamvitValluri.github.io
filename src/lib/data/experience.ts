@@ -71,9 +71,12 @@ const items: Array<Project> = [
 		slug: 'ME463',
 		color: '#ff3e00',
 		description:
-			'',
+`
+##Objective
+
+`,
 		shortDescription:
-			'',
+			'Mechanical Engineering Team',
 		links: [{}],
 		logo: Assets.PSR,
 		name: 'Senior Design Project',
