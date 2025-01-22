@@ -114,9 +114,8 @@ of the launch.
 - Designed the avionics bay in Solidworks to house the recovery hardware, including altimeters and ejection charges, andperformed a structural analysis on the bulkheads during parachute deployment to ensure the device was within the factor
 of safety
 
-![Alt text2](${base}/logos/android.png)
+![CAD](${base}/Project_Screenshots/PSPCAD.png "CAD model of Avionics Bay")
 
-[Alt text](https://images.pexels.com/photos/2280547/pexels-photo-2280547.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
 `,	
 		shortDescription:
 			'Avionics Sub-Team',
