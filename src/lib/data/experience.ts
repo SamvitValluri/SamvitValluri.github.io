@@ -108,13 +108,15 @@ const items: Array<Project> = [
 - Design, build, test, and fly a student-crafted launch vehicle to a predetermined altitude
 - To carry a payload consisting of an unmanned aerial system (UAS) capable of collecting a lunar ice sample and moving it a set distance
 ## Avionics Sub-Team
-- Created a MATLAB Simulink model using various rocket component characteristics and environmental characteristics to verify and validate the rocket trajectory obtained from OpenRocket and RAS Aero II. The code was within 10% of the actual value for the apogee
+- Created a MATLAB Simulink model using various rocket component characteristics and environmental characteristics to verify and validate the rocket trajectory obtained from OpenRocket and RAS Aero II. The code was within 2.5% of the actual value for the apogee
 of the launch. 
 - Conducted various tests to highlight any failure modes and ensure the working of components such as the altimeter, main and drogue parachute, and black powder charges to ensure the flight would meet the safety and technical requirements
 - Designed the avionics bay in Solidworks to house the recovery hardware, including altimeters and ejection charges, andperformed a structural analysis on the bulkheads during parachute deployment to ensure the device was within the factor
 of safety
 
-![CAD](${base}/Project_Screenshots/PSPCAD.png "CAD model of Avionics Bay")
+![CAD](${base}/Project_Screenshots/PSPCAD.png)
+
+![Graph](${base}/Project_Screenshots/PSPGraph.png)
 
 `,	
 		shortDescription:
