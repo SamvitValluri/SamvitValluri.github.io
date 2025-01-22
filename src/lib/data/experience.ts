@@ -76,7 +76,7 @@ const items: Array<Project> = [
 
 `,
 		shortDescription:
-			'Mechanical Engineering Team',
+			'',
 		links: [{}],
 		logo: Assets.PSR,
 		name: 'Senior Design Project',
@@ -90,9 +90,11 @@ const items: Array<Project> = [
 		slug: 'solar',
 		color: '#ff3e00',
 		description:
-			'',
+`
+##Objectives
+`,
 		shortDescription:
-			'',
+			'Mechanical Engineering Team',
 		links: [{}],
 		logo: Assets.PSR,
 		name: 'Purdue Solar Racing',
