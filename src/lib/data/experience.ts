@@ -73,7 +73,6 @@ const items: Array<Project> = [
 		description:
 `
 ##Objective
-
 `,
 		shortDescription:
 			'',
@@ -91,7 +90,9 @@ const items: Array<Project> = [
 		color: '#ff3e00',
 		description:
 `
-##Objectives
+- Collaborated with a team of interdisciplinary engineers to design, develop, and manufacture a a solar car to participate in the Shell Eco-Marathon
+- Led the development of the steering system of the car, including designing the preliminary models and conducting a stress analysis in Fusion 360, producing drawings for parts with instructions on how they will be machined, and placing orders for the required parts and materials
+- Assisted in the configuration of the can bus to monitor the state of the batteries and display the information on the heads-up display
 `,
 		shortDescription:
 			'Mechanical Engineering Team',
