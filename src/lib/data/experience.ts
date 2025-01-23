@@ -104,9 +104,9 @@ const items: Array<Project> = [
      <td>Present day in purple and selected day in pink</td>
   </tr>
   <tr>
-    <td><img src="${base}/Project_Screenshots/AL2.gif" width=270 height=480></td>
-    <td><img src="${base}/Project_Screenshots/AL2.gif" width=270 height=480></td>
-    <td><img src="${base}/Project_Screenshots/AL2.gif" width=270 height=480></td>
+    <td><img src="${base}/Project_Screenshots/AL2.gif"></td>
+    <td><img src="${base}/Project_Screenshots/AL2.gif"></td>
+    <td><img src="${base}/Project_Screenshots/AL2.gif"></td>
   </tr>
  </table>
 
