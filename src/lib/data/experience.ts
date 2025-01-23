@@ -92,7 +92,9 @@ const items: Array<Project> = [
 		color: '#C28E0E',
 		description:
 `
-- Collaborated with a team of interdisciplinary e
+- Devised an experiment to compare the differences in heat distribution in materials used for cooking pots and pans by measuring the change in temperature gradient along flat plates of the different materials
+- Measured the temperature of each plate at 6 different points along the diagonal of the plate, plotted the temperature against time 3 times for each plate, and compared the dimensionless temperature gradient between each plate
+- Validated the results of the experiment by constructing a Python simulation, splitting the plates into nodes, and using difference equations to map out the temperature at each node at a given point in time
 `,
 		shortDescription:
 			'',
@@ -106,7 +108,7 @@ const items: Array<Project> = [
 		type: '',
 	},
 
-	
+
 	{
 		slug: 'solar',
 		color: '#C28E0E',
