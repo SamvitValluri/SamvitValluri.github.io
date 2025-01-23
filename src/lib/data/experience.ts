@@ -59,7 +59,7 @@ const items: Array<Project> = [
 		shortDescription:
 			'',
 		links: [{}],
-		logo: Assets.PSR,
+		logo: Assets.Purdue,
 		name: 'Mechatronics Project',
 		period: {
 			from: new Date(2022, 1, 1), to: new Date(2022, 4, 1)
@@ -77,7 +77,7 @@ const items: Array<Project> = [
 		shortDescription:
 			'',
 		links: [{}],
-		logo: Assets.PSR,
+		logo: Assets.Purdue,
 		name: 'Senior Design Project',
 		period: {
 			from: new Date(2022, 0, 1), to: new Date(2022, 4, 1)
