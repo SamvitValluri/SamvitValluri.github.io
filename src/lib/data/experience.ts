@@ -85,6 +85,8 @@ const items: Array<Project> = [
 		skills: getSkills('cpp', 'Solidworks', 'ANSYS'),
 		type: '',
 	},
+
+
 	{
 		slug: 'solar',
 		color: '#ff3e00',
@@ -105,6 +107,28 @@ const items: Array<Project> = [
 		skills: getSkills('Fusion360'),
 		type: '',
 	},
+
+
+	{
+		slug: 'heattransfer',
+		color: '#ff3e00',
+		description:
+`
+- Collaborated with a team of interdisciplinary e
+`,
+		shortDescription:
+			'',
+		links: [{to :'https://github.com/SamvitValluri/SamvitValluri--Nodal-Analysis-of-Flat-Plate', label: 'Code'}],
+		logo: Assets.Purdue,
+		name: 'Heat Transfer Analysis of Cookware',
+		period: {
+			from: new Date(2019, 0, 1), to: new Date(2020, 11, 1)
+		},
+		skills: getSkills('Fusion360'),
+		type: '',
+	},
+
+
 	{
 		slug: 'PSP',
 		color: '#ff3e00',
