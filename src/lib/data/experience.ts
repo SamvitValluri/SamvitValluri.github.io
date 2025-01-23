@@ -53,7 +53,7 @@ const items: Array<Project> = [
 	},*/
 	{
 		slug: 'ME563',
-		color: '#ff3e00',
+		color: '#C28E0E',
 		description:
 			'',
 		shortDescription:
@@ -69,7 +69,7 @@ const items: Array<Project> = [
 	},
 	{
 		slug: 'ME463',
-		color: '#ff3e00',
+		color: '#C28E0E',
 		description:
 `
 ##Objective
@@ -88,8 +88,28 @@ const items: Array<Project> = [
 
 
 	{
+		slug: 'heattransfer',
+		color: '#C28E0E',
+		description:
+`
+- Collaborated with a team of interdisciplinary e
+`,
+		shortDescription:
+			'',
+		links: [{to :'https://github.com/SamvitValluri/SamvitValluri--Nodal-Analysis-of-Flat-Plate', label: 'Code'}],
+		logo: Assets.Purdue,
+		name: 'Heat Transfer Analysis of Cookware',
+		period: {
+			from: new Date(2021, 8, 1), to: new Date(2021, 10, 1)
+		},
+		skills: getSkills('py'),
+		type: '',
+	},
+
+	
+	{
 		slug: 'solar',
-		color: '#ff3e00',
+		color: '#C28E0E',
 		description:
 `
 - Collaborated with a team of interdisciplinary engineers to design, develop, and manufacture a a solar car to participate in the Shell Eco-Marathon
@@ -109,29 +129,10 @@ const items: Array<Project> = [
 	},
 
 
-	{
-		slug: 'heattransfer',
-		color: '#ff3e00',
-		description:
-`
-- Collaborated with a team of interdisciplinary e
-`,
-		shortDescription:
-			'',
-		links: [{to :'https://github.com/SamvitValluri/SamvitValluri--Nodal-Analysis-of-Flat-Plate', label: 'Code'}],
-		logo: Assets.Purdue,
-		name: 'Heat Transfer Analysis of Cookware',
-		period: {
-			from: new Date(2021, 8, 1), to: new Date(2021, 10, 1)
-		},
-		skills: getSkills('py'),
-		type: '',
-	},
-
 
 	{
 		slug: 'PSP',
-		color: '#ff3e00',
+		color: '#C28E0E',
 		description:
 `
 ## Objective
