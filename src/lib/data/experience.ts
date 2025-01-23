@@ -122,9 +122,9 @@ const items: Array<Project> = [
 		logo: Assets.Purdue,
 		name: 'Heat Transfer Analysis of Cookware',
 		period: {
-			from: new Date(2019, 0, 1), to: new Date(2020, 11, 1)
+			from: new Date(2021, 8, 1), to: new Date(2021, 10, 1)
 		},
-		skills: getSkills('Fusion360'),
+		skills: getSkills('py'),
 		type: '',
 	},
 
